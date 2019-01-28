@@ -1,0 +1,59 @@
+#first
+{
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlP1NaO1b1dxfeFb2nxdLcFmYsfNqwFvfu2lV4DiJ85ihGMhB9");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#sec
+{
+	background-image: url("photos3.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+}
+.img-circle
+{
+        border-radius: 400%;
+	margin:0 auto;
+}
+ul
+{
+            background-color:#000000;
+	    border-collapse:collapse;
+            list-style-type:none;
+	    margin:0;
+	    padding:10px;
+	    overflow:hidden;
+}
+a:link,a:visited
+{
+                    display:block;
+                    text-decoration:none;
+                    front-weight:bold;
+                    color:#FFFFFF;
+                    width:200px;
+                    text-align:center;
+                    padding:5px;
+}
+a:hover,a:active
+{
+	background-color:#FF0000;
+}
+li
+{
+	float:left;
+}
+h1
+{
+	    text-align:center;
+	    padding:10px;
+	    color:#ff0000;
+}
+div.side
+{
+      	float:left;
+	margin:5 auto;	
+	margin-top:20px;
+	margin-left:60px;
+	font-size:20px;
+	color:#Ff1493;
+}

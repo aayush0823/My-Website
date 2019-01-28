@@ -1,0 +1,89 @@
+<!Doctype html>
+<html>
+<head>
+	<title>Aayush Goel</title>
+<link rel="stylesheet" type="text/css" href="HomePage.css">
+<meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<div id="pre"><p style="font-size: 3vw;text-shadow: 0.3vw 0.3vh blue;color:red;text-align: center;" >Loading...</p></div>
+	<div id="first">
+		<ul>
+		  <li><a href="index.html">Home</a></li>
+		  <li><a href="MyLife.html">My Life</a></li>
+		  <li><a href="Education.html">Education</a></li>
+		  <li><a href="Friends.html">Friends</a></li>
+		  <li><a href="Hobby.html">Hobbies</a></li>
+		  <li><a href="Contact.html">Contact</a></li>
+		</ul>
+		<br>
+		<br>
+		<br>
+		<br>
+		<p id="ani"> Welcome To The World Of Aayush </p>
+	</div>
+	<br>
+	<br>
+	<br>
+<div id="sec">
+		<br>
+		<br>
+		<br>
+	<img  style="opacity:1; width:25%; height:25%; " class="img-circle" src="photos1.jpg" alt="pix" id="resize" />
+
+	
+	<div style="padding-left:4vh; width: 60%;" class="side">
+		<p id="quotes"><h2 style="color:red;text-shadow: 0.2vw 0.2vh blue; font-size: 2vw; "><label id="anim">Quotes I Believe In.....</label></h2><br>
+		<p id="quote" style="color:white">If it doesn't open ..... its not your door <br><br>
+		<b>Silence</b> isn't empty.Its full of answers <br><br>
+		I am <b>NOT</b> a product of <i>circumstances</i>. I <b>AM</b> a product of my <i>decisions.</i><br><br>
+		I don't remember <b><i>days</i></b>, I remember <b><i>moments</i></b><br><br>
+		<strong><i>Success</i></strong> Is a journey not a <strong><i>Destination</i></strong></p>
+		<img class="img-circle" src="emo.gif" height="57" width="57"
+		alt="cute"/>
+	</div>
+</div>
+<script>
+    setTimeout('document.getElementById("first").style.display = "none"',0);
+    setTimeout('document.getElementById("sec").style.display = "none"',0);
+    setTimeout('document.getElementById("pre").style.display = "none"',4000);
+    setTimeout('document.getElementById("first").style.display = "block"',3000);
+    setTimeout('document.getElementById("sec").style.display = "block"',3000);
+
+</script>
+<script>	
+	var imageslide;
+	var pic=0;
+
+	imageslide=document.getElementById('resize');
+	images=new Array();
+	images[0]=new Image();
+	images[1]=new Image();
+	images[2]=new Image();
+	images[3]=new Image();
+	images[4]=new Image();
+	images[5]=new Image();
+
+
+	images[0].src="photos1.jpg";
+	images[1].src="photos4.jpg";
+	images[2].src="photos3.jpg";
+	images[3].src="photos5.jpg";
+	images[4].src="photos7.jpg";
+	images[5].src="photos8.jpg";
+
+
+	function change()
+	{
+		imageslide.src=images[pic].src;
+		if(pic==5)
+			pic=0;
+		else
+			pic++;
+		timer= setTimeout(change,2000);
+	}
+	change();
+	</script>
+</body>
+</html>

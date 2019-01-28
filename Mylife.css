@@ -1,0 +1,323 @@
+#family,#cousin,#names,#school,#iquest,#iiit,#friends,#bf,#sportlover,#HP,#contact {
+  position: relative;
+  opacity: 0.8;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+body{
+  margin: 0;
+}
+#contact
+{
+  min-height: 100%;
+  min-width: 100%;
+}
+#HP
+{
+  display: flowroot;
+  background-image: url("bolly.jpg");
+  min-height: 1000px;
+  min-width: 1100px;
+}
+#pc
+{
+  display: flowroot;
+  background-image: url("patte.jpg");
+  min-height: 500px;
+  min-width: 1100px;
+}
+#sportlover
+{
+  display: flow-root;
+  background-image: url("sports.jpg");
+  min-height: 100%;
+  min-width: 1100px;
+}
+#bf
+{
+  background-image: url("friends.jpg");
+  min-height: 100%;
+  min-width: 1100px;
+}
+#friends
+{
+  display: flow-root;
+  background-image: url("bg1.jpg");
+  min-height: 100%;
+  min-width: 1100px;
+}
+#iiit
+{
+     background-image: url("index1.jpg");
+  min-height: 100%;
+  min-width: 100%;
+}
+#iquest
+{
+    background-image: url("study.jpg");
+  min-height: 800px;
+  min-width: 100%;
+}
+#school
+{
+  display: flow-root;
+background-image: url("bdps1.jpg");
+  min-height: 100%;
+  min-width: 100%;
+}
+#family {
+  background-image: url("family.jpg");
+  min-height: 100%;
+  min-width: 1000px;
+}
+
+#cousin {
+  background-image: url("cousin.jpg");
+  min-height: 1150px;
+  min-width: 1000px;
+}
+#names
+{
+  background-image: url("funia.jpg");
+  min-height: 800px;
+  min-width: 1000px;
+}
+
+ul
+{
+            background-color:#000000;
+            border-collapse:collapse;
+            list-style-type:none;
+            margin:0;
+            overflow:hidden;
+}
+a:link,a:visited
+{
+  margin: 0;
+                    display:block;
+                    text-decoration:none;
+                    font-weight:bold;
+                    color:#FFFFFF;
+                    width:200px;
+                    text-align:center;
+                    padding:8px;
+                    padding-bottom: 14px;
+                    padding-top: 14px;
+}
+
+.gallery a:link,a:visited
+{
+  margin: 0;
+                    display:flow-root;
+                    text-decoration:none;
+                    font-weight:bold;
+                    color:#FFFFFF;
+                    width:200px;
+                    text-align:center;
+                    padding-bottom: 14px;
+                    padding-top: 14px;
+}
+h1 a:hover
+{
+  background-color: lightblue;
+}
+li a:hover,a:active
+{
+        background-color:#555;
+}
+li
+{
+        float:left;
+}
+h1
+{
+      text-align:center;
+      padding:10px;
+      color:#ff0000;
+}
+.dad
+{
+  margin:20px;
+  border-radius: 50%;
+  float:left;
+}
+.mom {
+        float:left;
+        position: relative;
+        width: 50%;
+        left: 10px;
+        bottom: 0;
+        height: 1px;
+        margin-right:2%;
+        margin-left: 2%;
+    }
+  .momp
+  {
+    border-radius: 40%;
+  width: 10%;
+  height:10%;
+  border-left: 10px;
+  }
+.cou1
+{
+  width:15%;
+  height:15%;
+  margin-right:50px;
+  margin-left:50px;
+  float:left;
+  border-radius:50%;
+}
+.cou2
+{
+   float:left;
+        position: relative;
+        width: 50%;
+        left: 10px;
+        bottom: 0;
+        width: 80%;
+        height: 1px;
+        margin-right: 70px;
+}
+.cou2p
+{
+  border-radius: 40%;
+  width: 10%;
+  height:10%;
+  margin-right:5px;
+}
+.rotate
+{
+    -ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg);
+    float:left;
+    padding: 15px;
+}
+.rotateopp
+{
+  -ms-transform: rotate(9deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+    padding: 15px;
+}
+h1
+{
+  font-size: 30px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+.grid{
+  display: flex;
+  flex-wrap: nowrap;
+}
+.resize
+{
+  margin:2vw;
+  width: 21vw;
+  height: 50vh;
+  border-radius: 69%;
+}
+.resize1
+{
+  margin: 0px;
+  width: 70vh;
+  height: 70vh;
+}
+.text
+{
+  margin:3vh;
+}
+.h1{
+  font-size:42px;
+  font-weight: bold;
+}
+div.gallery
+{
+  width:33%;
+  display: flow-root;
+  float: left;
+}
+div.gallery img {
+  width:33vw;
+  height:70vh;
+}
+div.gallery a:hover
+{
+  opacity:0.4;
+  background-color: none;
+
+}
+div.gall
+{
+  display: inline-block;
+  float: left;
+}
+div.gall img {
+  width:70vh;
+  height: 70vh;
+}
+div.gall a:hover
+{
+  opacity:0.7;
+  background-color: none;
+
+}
+.icon-bar {
+    width: 100%;
+    overflow: auto;
+}
+
+.icon-bar a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+table,tr,td
+{
+  width: 50%;
+  height: 30%;
+  color: white;
+}
+td
+{
+  padding: 4px;
+}
+#i1,#i2,#i3,#i4,#i5,#i6,#i7,#i8
+{
+  color: white;
+  font-size: 3vw;
+  padding: 1vw;
+}
+.icon {
+    width: 100px;
+    height: 100px;
+    -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, height 4s;
+}
+
+.icon:hover {
+    background-color: #000;
+    font-size: : 30px;
+}
+.col
+{
+  color: red;
+  font-weight: bold;
+}
